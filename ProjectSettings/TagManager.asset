@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: EverythingElse
+    uniqueID: 345929077
+    locked: 0
+  - name: Lights
+    uniqueID: 2912529311
     locked: 0
