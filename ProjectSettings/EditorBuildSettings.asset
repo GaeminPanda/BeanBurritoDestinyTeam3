@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Victor/Main Menu.unity
+    path: Assets/Victor/Main Menu/Main Menu.unity
     guid: 14991aef887c2ef4aaf6fc1192b3fa59
   m_configObjects: {}
