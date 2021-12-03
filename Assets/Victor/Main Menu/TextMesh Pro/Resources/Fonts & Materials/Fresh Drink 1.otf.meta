@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 454697f6935092c4fb61b270e8aa6a69
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fresh Drink
+  fontNames:
+  - Fresh Drink
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6c7c3839eac4c72458a9aaba8d53bd74, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
