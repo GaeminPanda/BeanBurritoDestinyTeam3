@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 503eab3ab57bb5245b6feb6e43335350
+guid: dc33858d3772c7c4590a2e663b9ff2e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2926492817817111913
-    second: Sidoine_C_BBDCounterTilemap_0
+      213: 538211969923619589
+    second: Sidoine_C_BBDCleanCountTile_0
   - first:
-      213: -8017953964202552202
-    second: Sidoine_C_BBDCounterTilemap_1
+      213: 7291669661280888189
+    second: Sidoine_C_BBDCleanCountTile_1
   - first:
-      213: 494256396754432959
-    second: Sidoine_C_BBDCounterTilemap_2
+      213: -8255448463844199048
+    second: Sidoine_C_BBDCleanCountTile_2
   - first:
-      213: -8160780585089880712
-    second: Sidoine_C_BBDCounterTilemap_3
+      213: 9153038195055407826
+    second: Sidoine_C_BBDCleanCountTile_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,7 +135,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sidoine_C_BBDCounterTilemap_0
+      name: Sidoine_C_BBDCleanCountTile_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 792774499420367d0800000000000000
-      internalID: -2926492817817111913
+      spriteID: 50b19216fec187700800000000000000
+      internalID: 538211969923619589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sidoine_C_BBDCounterTilemap_1
+      name: Sidoine_C_BBDCleanCountTile_1
       rect:
         serializedVersion: 2
         x: 50
@@ -170,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 674954ab9518ab090800000000000000
-      internalID: -8017953964202552202
+      spriteID: d75e32c8ce6313560800000000000000
+      internalID: 7291669661280888189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sidoine_C_BBDCounterTilemap_2
+      name: Sidoine_C_BBDCleanCountTile_2
       rect:
         serializedVersion: 2
         x: 100
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb3338cf293fbd600800000000000000
-      internalID: 494256396754432959
+      spriteID: 875b5038c51ce6d80800000000000000
+      internalID: -8255448463844199048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sidoine_C_BBDCounterTilemap_3
+      name: Sidoine_C_BBDCleanCountTile_3
       rect:
         serializedVersion: 2
         x: 150
@@ -212,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d20d7ab451fbe80800000000000000
-      internalID: -8160780585089880712
+      spriteID: 2d23cd75ebf160f70800000000000000
+      internalID: 9153038195055407826
       vertices: []
       indices: 
       edges: []
