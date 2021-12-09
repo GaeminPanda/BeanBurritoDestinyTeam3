@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckForPlayerCollision : MonoBehaviour
 {
@@ -11,13 +12,14 @@ public class CheckForPlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        if(collision.tag == "Player")
+        if(collision.tag == "TestPlayer")
         {
             rb2 = mainPlayer.GetComponent<Rigidbody2D>();
             rb2.velocity = new Vector2(0, 0);
             mainPlayer.transform.localPosition = spawnpoint.transform.localPosition;
+          SceneManager.LoadScene("EnemiesScene");
         }
     }
+
 
 }
