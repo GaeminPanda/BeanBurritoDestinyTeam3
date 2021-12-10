@@ -1,7 +1,58 @@
 fileFormatVersion: 2
 guid: de5642b5e5a506e4bbfb35204b76b12c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6684173928449827962
+    second: Sidoine_C_spatula_0
+  - first:
+      213: 3606081130179495591
+    second: Sidoine_C_spatula_1
+  - first:
+      213: -4367711290712879310
+    second: Sidoine_C_spatula_2
+  - first:
+      213: 7694516113817510870
+    second: Sidoine_C_spatula_3
+  - first:
+      213: -1513184663285226952
+    second: Sidoine_C_spatula_4
+  - first:
+      213: 861232376679254912
+    second: Sidoine_C_spatula_5
+  - first:
+      213: 5629911809748595288
+    second: Sidoine_C_spatula_6
+  - first:
+      213: -2082649950711410749
+    second: Sidoine_C_spatula_7
+  - first:
+      213: 5102941627505065887
+    second: Sidoine_C_spatula_8
+  - first:
+      213: 44308639247095643
+    second: Sidoine_C_spatula_9
+  - first:
+      213: 1730522562405871341
+    second: Sidoine_C_spatula_10
+  - first:
+      213: 4315245193862166522
+    second: Sidoine_C_spatula_11
+  - first:
+      213: -8336037125083035548
+    second: Sidoine_C_spatula_12
+  - first:
+      213: 2261991496882563755
+    second: Sidoine_C_spatula_13
+  - first:
+      213: -2271988387597041923
+    second: Sidoine_C_spatula_14
+  - first:
+      213: -8575586927056251086
+    second: Sidoine_C_spatula_15
+  - first:
+      213: 1688385486993051037
+    second: Sidoine_C_spatula_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +172,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b12d1f93b0d33a0800000000000000
+      internalID: -6684173928449827962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6869b9eaf5b0230800000000000000
+      internalID: 3606081130179495591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f8893e8b5c263c0800000000000000
+      internalID: -4367711290712879310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3ac9263a968ca60800000000000000
+      internalID: 7694516113817510870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832a051e096100be0800000000000000
+      internalID: -1513184663285226952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b48099846b3fb00800000000000000
+      internalID: 861232376679254912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 1
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85277d066f6712e40800000000000000
+      internalID: 5629911809748595288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf8c5877e0f813e0800000000000000
+      internalID: -2082649950711410749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f3ef8af5a41d640800000000000000
+      internalID: 5102941627505065887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57ddcef87a6d9000800000000000000
+      internalID: 44308639247095643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee20001a1d040810800000000000000
+      internalID: 1730522562405871341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 57
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7bdd204a4d2eb30800000000000000
+      internalID: 4315245193862166522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 58
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46805f4a662705c80800000000000000
+      internalID: -8336037125083035548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 58
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaa3a82845346f10800000000000000
+      internalID: 2261991496882563755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 59
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe377759964870e0800000000000000
+      internalID: -2271988387597041923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 57
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237145010256df880800000000000000
+      internalID: -8575586927056251086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidoine_C_spatula_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 57
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d452ca7a95e6710800000000000000
+      internalID: 1688385486993051037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
