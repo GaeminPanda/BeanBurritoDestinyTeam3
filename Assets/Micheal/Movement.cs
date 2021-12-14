@@ -13,21 +13,35 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 1f;
     Rigidbody2D rb2;
-
+    Animator a;
 
     private bool facingRight = true;
     // Start is called before the first frame update
     void Start()
     {
         rb2 = GetComponent<Rigidbody2D>();
+        a = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        a.SetFloat("yVelocity", rb2.velocity.y);
+        a.SetBool("Grounded", ground);
+
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if(Input.GetButtonDown("Jump") && IsGrounded() == true) //Jump Function
+        if (horizontal == 0)
+        {
+            a.SetBool("Moving", false);
+        }
+        else
+        {
+            a.SetBool("Moving", true);
+        }
+
+        if (Input.GetButtonDown("Jump") && IsGrounded() == true) //Jump Function
         {
             rb2.velocity = new Vector2(rb2.velocity.x, jumpPower);
         }
