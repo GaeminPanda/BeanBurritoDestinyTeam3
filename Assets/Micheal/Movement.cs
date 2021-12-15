@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         a.SetFloat("yVelocity", rb2.velocity.y);
-        a.SetBool("Grounded", ground);
+        a.SetBool("Grounded", IsGrounded());
 
 
         horizontal = Input.GetAxisRaw("Horizontal");
