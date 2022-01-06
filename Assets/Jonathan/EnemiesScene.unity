@@ -546,7 +546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 307173668}
-  mainPlayer: {fileID: 0}
+  mainPlayer: {fileID: 934595056}
 --- !u!1 &307173668
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 307173668}
-  mainPlayer: {fileID: 0}
+  mainPlayer: {fileID: 934595056}
 --- !u!1 &655745672
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,13 +998,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 307173668}
-  mainPlayer: {fileID: 0}
+  mainPlayer: {fileID: 934595056}
 --- !u!1 &934595056 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3686700595555368865, guid: 239e8c261448b9448b333fb8036e8487,
     type: 3}
   m_PrefabInstance: {fileID: 1791706605}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &934595063
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934595056}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.16254333}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 2.03}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.98670626, y: 1.5680344}
+  m_EdgeRadius: 0
 --- !u!1 &1026143548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 307173668}
-  mainPlayer: {fileID: 0}
+  mainPlayer: {fileID: 934595056}
 --- !u!1 &1524042567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,7 +1501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 307173668}
-  mainPlayer: {fileID: 0}
+  mainPlayer: {fileID: 934595056}
 --- !u!1001 &1791706605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1498,6 +1524,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3686700595555368876, guid: 239e8c261448b9448b333fb8036e8487,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3686700595555368877, guid: 239e8c261448b9448b333fb8036e8487,
         type: 3}
       propertyPath: m_RootOrder
@@ -1715,7 +1746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACAn+uBtgPOVQIAAA8FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF9VMlu2zAQ/RWD56awHCOKe2sVx+nBiRG3yEUXShxZhClS4BJv8L93SK11gZ5Evnkz82YRL4RLU0NulV5pztaKAfk2If5MvkwG4wsc6U7JLT9Dx/ngzJaeRAPnnVquEI+8m1EVWM3z73InPHmKoJO8ULpash0kyliDcEGFATRpZb23ROgyIUf83C28ywlPs9ifznhaTCdXPOYgLeiB2hE7WsNyMhe0qoF5yQM56thRQ5NYTMvwwnMlBDetEmJPdag0obVxWAcSGKdYWUg/w2sJfFfa9tI7vxWFAdtK0vT0xDU2qIlKfqimaxU1+0bXJxUOeuFNyPU/1rsomAutqpcuazT1GWzJ8/07PeXU2FFTx/DTIDsKzTlQsaeZgI8S5KtaaeUkQ6PVzrs6A7On4doXlpSQ7we8kXoDuvq/o7mG0o+J4FXmka/zBtgKFZod5g4ax/IT9YatMG0ERL2I3wZ+0d14fVrDM9fGoqktUnp1mXLaU8kytMwX42yitIQAt5prkFTY0wbD2Nv53dhGaW8sz9T/KG3y1tbt/41LgAf+dHpj2qhDPytTqsMaTPnmrOASBtHe8Ip9SpSUzXqNe9K5bZ0uaD5y2znO/t4sErOoyPLHiMaPi3gRw939LIvv5w9xNo8KmsUPJKwel1gnFZtGaNsenJocgktcs+79mKw0rcOqM00PK36u1KjlXBZqm2sA+dZE6IWDxiT4S7Il49igLVjLZZg3uaREqHwPLO0DpaHS5dFqmg5RUlLzT2U9kpIkPBgp8XC/yhsNnxwOPnkX7EqufwBQSwMEFAAACAgAAICf60gfddNtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJ5imFaUrKFYaK5haW5pXmqrrFRkrmxiZl5kolhWmKSuZlSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf64G2A85VAgAADwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf60gfddNtAAAAeAAAAAkAJAAAAAAAAAAAAAAAogIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABaAwAAAAA=
+    dataString: UEsDBBQAAAgIAACAn+t77C3TVgIAABAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMlu2zAQ/RWD56awHCOKe2sVx+nBiRG3yEUXShxZhClS4BJv8L93SK110ZPIN29m3izUhXBpasit0ivN2VoxIN8mxJ/Jl8lgfIEj3Sm55WfoOB+c2dKTaOC8U8sV4pF3M6oCq3n+Xe6EJ08RdJIXSldLtoNEGWsQLqgwgCatrPeWCF0m5Iifu4V3OeFpFvvTGU+L6eSKxxykBT1QO2JHa1hO5oJWNTAveSBHHTtqaBKLaRleeK6E4KZVQuypDpUmtDYO60AC4xQrC+lneC2B70rbXnrnt6IwYFtJmp6euMYGNVHJD9V0raJm3+j6pMJBL7wJuf7HehcFc6FV9dJljaY+gy15vn+np5waO2rqGH4aZEehOQcq9jQT8FGCfFUrrZxkaLTaeVdnYPY0XPvCkhLy/YA3Um9AV/9/NL6Ga6j9mAheZd70dd4AW6FCt8PgQeNcfqLgsBamDYGoV/HbwC+6G+9Pa3jm2lg0tVVKLy9TTnsqWYae+WqcTZSWEOBWdA2SCnvaYBh7O8Ab2yjtjeWZ+pfSJm9t3QO4cQnwwJ9Ob0wbdeiHZUp1WIMp35wVXMIg2htesU+JkrLZr3FPOret0wXNR247x9nfq0ViFhVZ/hjR+HERL2K4u59l8f38Ic7mUUGz+IGE3eMS66Ri0wht24NTk0NwiXvW/UAmK03rsOtM08OKnys1ajmXhdrmGkC+NRF64aAxCb5JtmQcG7QFa7kM8yaXlAiV74GlfaA0VLo8Wk3TIUpKav6prEdSkoQ/Rko83O/yRsMnh4NP3gW7kusfUEsDBBQAAAgIAACAn+tIH3XTbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSeYphWlKyhWGiuYWluaV5qq6xUZK5sYmZeZKJYVpikrmZUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+t77C3TVgIAABAFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+tIH3XTbQAAAHgAAAAJACQAAAAAAAAAAAAAAKMCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAWwMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
