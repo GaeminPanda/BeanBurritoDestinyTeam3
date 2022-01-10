@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -14,6 +15,10 @@ public class Menu : MonoBehaviour
     {
         Debug.Log("Quit");
         Application.Quit();
+    }
+    public void LoadNextThing()
+    {
+        SceneManager.LoadScene("CounterTopScene1");
     }
 
 }
