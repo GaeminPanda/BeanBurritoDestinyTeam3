@@ -26,6 +26,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         a.SetFloat("yVelocity", rb2.velocity.y);
         a.SetBool("Grounded", IsGrounded());
 
