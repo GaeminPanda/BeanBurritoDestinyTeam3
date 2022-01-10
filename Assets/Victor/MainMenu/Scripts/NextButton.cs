@@ -7,8 +7,5 @@ public class ButtonManager : MonoBehaviour
 {
     public string nextScene;
 
-    private void OnMouseDown()
-    {
-        SceneManager.LoadScene(nextScene);
-    }
+   
 }
