@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class MovementFixed : MonoBehaviour
 {
     [SerializeField]
     private float jumpCut = 0.5f;
@@ -15,16 +15,12 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb2;
     Animator a;
 
-    private Vector3 respawnPoint;
-    public GameObject fallDetector;
-
     private bool facingRight = true;
     // Start is called before the first frame update
     void Start()
     {
         rb2 = GetComponent<Rigidbody2D>();
         a = gameObject.GetComponent<Animator>();
-        respawnPoint = transform.position;
     }
 
     // Update is called once per frame
@@ -54,14 +50,11 @@ public class Movement : MonoBehaviour
         Flip();
         if (Input.GetButtonUp("Jump"))
         {
-            if(rb2.velocity.y > 0)
+            if (rb2.velocity.y > 0)
             {
                 rb2.velocity = new Vector2(rb2.velocity.x, rb2.velocity.y * jumpCut);
             }
         }
-
-        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
-
     }
 
     private void Flip()
@@ -86,13 +79,4 @@ public class Movement : MonoBehaviour
 
         return grounded;
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-       if(collision.tag == "FallDetector")
-        {
-            transform.position = respawnPoint;
-        } 
-    }
-
 }
