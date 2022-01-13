@@ -6,6 +6,8 @@ public class BeanBullet : MonoBehaviour
 {
     public float speed;
     public float lifetime;
+    public float distance;
+    public LayerMask whatIsSolid;
 
     public GameObject destroyEffect;
 
@@ -16,6 +18,17 @@ public class BeanBullet : MonoBehaviour
 
     private void Update()
     {
+
+        RaycastHit hitinfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
+        if (hitinfo.collider != null)
+        {
+            if (hitinfo.collider.CompareTag("Enemy"))
+            {
+                Debug.Log("ENEMY MUST TAKE DAMAGE !");
+            }
+            Destroyprojectile();
+        }
+
         transform.Translate(transform.up * speed * Time.deltaTime);
     }
 
