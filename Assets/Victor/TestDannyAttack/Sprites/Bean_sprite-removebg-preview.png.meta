@@ -1,34 +1,28 @@
 fileFormatVersion: 2
-guid: bc62aede701e2c44e8285ac9a437a562
+guid: b50256db071891e488d67cfbb291f844
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5447612923922286391
-    second: Bean_sprite_0
+      213: 753895961163306509
+    second: Bean_sprite-removebg-preview_0
   - first:
-      213: 4800756929576721712
-    second: Bean_sprite_1
+      213: 6003322376483197240
+    second: Bean_sprite-removebg-preview_1
   - first:
-      213: -6783380866711627297
-    second: Bean_sprite_2
+      213: -4601768461419921790
+    second: Bean_sprite-removebg-preview_2
   - first:
-      213: -4261972677916012372
-    second: Bean_sprite_3
+      213: -5294703608977631648
+    second: Bean_sprite-removebg-preview_3
   - first:
-      213: 8307291191523864010
-    second: Bean_sprite_4
+      213: 7639556552660263220
+    second: Bean_sprite-removebg-preview_4
   - first:
-      213: 1473033433432577040
-    second: Bean_sprite_5
+      213: 182307508839407105
+    second: Bean_sprite-removebg-preview_5
   - first:
-      213: -8403705441912239476
-    second: Bean_sprite_6
-  - first:
-      213: 1984085244313700530
-    second: Bean_sprite_7
-  - first:
-      213: 6531904633516775048
-    second: Bean_sprite_8
+      213: -478364020897818563
+    second: Bean_sprite-removebg-preview_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bean_sprite_0
+      name: Bean_sprite-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 896.6666
-        width: 414
-        height: 448.33334
+        y: 346.6667
+        width: 160
+        height: 173.33333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8f8cb88e03664b0800000000000000
-      internalID: -5447612923922286391
+      spriteID: d069db2e160667a00800000000000000
+      internalID: 753895961163306509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean_sprite_1
+      name: Bean_sprite-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 414
-        y: 896.6666
-        width: 414
-        height: 448.33334
+        x: 160
+        y: 346.6667
+        width: 160
+        height: 173.33333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d5a60fdf6bf9240800000000000000
-      internalID: 4800756929576721712
+      spriteID: 8315f6af4e5105350800000000000000
+      internalID: 6003322376483197240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean_sprite_2
+      name: Bean_sprite-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 828
-        y: 896.6666
-        width: 414
-        height: 448.33334
+        x: 320
+        y: 346.6667
+        width: 160
+        height: 173.33333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,83 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9d877aa079cd1a0800000000000000
-      internalID: -6783380866711627297
+      spriteID: 28e387e27fb3320c0800000000000000
+      internalID: -4601768461419921790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean_sprite_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 448.66666
-        width: 414
-        height: 448.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca0556a2e6e6ad4c0800000000000000
-      internalID: -4261972677916012372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean_sprite_4
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 448.66666
-        width: 414
-        height: 448.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acde284235d694370800000000000000
-      internalID: 8307291191523864010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean_sprite_5
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 448.66666
-        width: 414
-        height: 448.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 014d50e6a14417410800000000000000
-      internalID: 1473033433432577040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean_sprite_6
+      name: Bean_sprite-removebg-preview_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.6666565
-        width: 414
-        height: 448.33334
+        y: 173.66667
+        width: 160
+        height: 173.33333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8acdc1ec6a006b80800000000000000
-      internalID: -8403705441912239476
+      spriteID: 066d8e3ce1f6586b0800000000000000
+      internalID: -5294703608977631648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean_sprite_7
+      name: Bean_sprite-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 414
-        y: 0.6666565
-        width: 414
-        height: 448.33334
+        x: 160
+        y: 173.66667
+        width: 160
+        height: 173.33333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8896f7403e88b10800000000000000
-      internalID: 1984085244313700530
+      spriteID: 431a2d26538250a60800000000000000
+      internalID: 7639556552660263220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean_sprite_8
+      name: Bean_sprite-removebg-preview_5
       rect:
         serializedVersion: 2
-        x: 828
-        y: 0.6666565
-        width: 414
-        height: 448.33334
+        x: 320
+        y: 173.66667
+        width: 160
+        height: 173.33333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +263,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 886de7b18acf5aa50800000000000000
-      internalID: 6531904633516775048
+      spriteID: 10e5240a6bfa78200800000000000000
+      internalID: 182307508839407105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bean_sprite-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.66667175
+        width: 160
+        height: 173.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38de0d15728c59f0800000000000000
+      internalID: -478364020897818563
       vertices: []
       indices: 
       edges: []
