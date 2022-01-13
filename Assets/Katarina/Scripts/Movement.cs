@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
-
     [SerializeField]
     private float jumpCut = 0.5f;
     public LayerMask ground;
@@ -20,12 +18,12 @@ public class Movement : MonoBehaviour
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
+    //private int score = 0;
+
     private bool facingRight = true;
     // Start is called before the first frame update
     void Start()
     {
-
-
         rb2 = GetComponent<Rigidbody2D>();
         a = gameObject.GetComponent<Animator>();
         respawnPoint = transform.position;
@@ -93,9 +91,23 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "FallDetector")
+       if(collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
         }
+       else if(collision.tag == "CheckPoint")
+        {
+            respawnPoint = transform.position;
+        }
+       else if (collision.tag == "Bean")
+        {
+            //score += 1;
+            //Debug.Log(score);
+            Scoring.totalScore += 1;
+            Debug.Log(Scoring.totalScore);
+            collision.gameObject.SetActive(false);
+        }
+
     }
+
 }
