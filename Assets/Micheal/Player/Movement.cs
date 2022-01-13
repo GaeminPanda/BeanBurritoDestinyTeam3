@@ -18,6 +18,8 @@ public class Movement : MonoBehaviour
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
+    private int score = 0;
+
     private bool facingRight = true;
     // Start is called before the first frame update
     void Start()
@@ -92,7 +94,18 @@ public class Movement : MonoBehaviour
        if(collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
-        } 
+        }
+       else if(collision.tag == "CheckPoint")
+        {
+            respawnPoint = transform.position;
+        }
+       else if (collision.tag == "Bean")
+        {
+            score += 1;
+            Debug.Log(score);
+            collision.gameObject.SetActive(false);
+        }
+
     }
 
 }
