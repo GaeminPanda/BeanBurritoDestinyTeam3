@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TestPlayer
   - FallDetector
+  - enemy
   layers:
   - Default
   - TransparentFX

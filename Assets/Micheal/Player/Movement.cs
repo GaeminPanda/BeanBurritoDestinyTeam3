@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+
+
     [SerializeField]
     private float jumpCut = 0.5f;
     public LayerMask ground;
@@ -22,6 +24,8 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
         rb2 = GetComponent<Rigidbody2D>();
         a = gameObject.GetComponent<Animator>();
         respawnPoint = transform.position;
@@ -89,10 +93,9 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       if(collision.tag == "FallDetector")
+        if (collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
-        } 
+        }
     }
-
 }
