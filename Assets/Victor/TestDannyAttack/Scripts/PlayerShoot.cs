@@ -7,11 +7,11 @@ public class PlayerShoot : MonoBehaviour
     public GameObject BeanBulletPrefab;
 
     float timeUntilFire;
-    Movement pm;
+    MovementScript pm;
 
     private void Start()
     {
-        pm = gameObject.GetComponent<Movement>();
+        pm = gameObject.GetComponent<MovementScript>();
     }
     private void Update()
     {
