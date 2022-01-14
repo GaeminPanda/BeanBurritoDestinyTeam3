@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Movement : MonoBehaviour
 {
@@ -18,8 +19,9 @@ public class Movement : MonoBehaviour
 
     private Vector3 respawnPoint;
     public GameObject fallDetector;
+    public Text scoreText;
 
-    private int score = 0;
+    //private int score = 0;
 
     private bool facingRight = true;
     // Start is called before the first frame update
@@ -28,6 +30,7 @@ public class Movement : MonoBehaviour
         rb2 = GetComponent<Rigidbody2D>();
         a = gameObject.GetComponent<Animator>();
         respawnPoint = transform.position;
+        scoreText.text = "Beans: " + Scoring.totalScore;
     }
 
     // Update is called once per frame
@@ -104,8 +107,9 @@ public class Movement : MonoBehaviour
         }
        else if (collision.tag == "Bean")
         {
-            score += 1;
-            Debug.Log(score);
+            //score += 1;
+            Scoring.totalScore += 1;
+            scoreText.text = "Beans: " + Scoring.totalScore;
             collision.gameObject.SetActive(false);
         }
 
