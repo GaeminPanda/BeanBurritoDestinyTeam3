@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class MovementScript : MonoBehaviour
 {
     [SerializeField]
     private float jumpCut = 0.5f;
