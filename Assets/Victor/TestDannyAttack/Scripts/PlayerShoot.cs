@@ -5,6 +5,7 @@ public class PlayerShoot : MonoBehaviour
     public float fireRate = 0.2f;
     public Transform firingpoint;
     public GameObject BeanBulletPrefab;
+    public Animator animator;
 
     float timeUntilFire;
     Movement pm;
@@ -19,6 +20,7 @@ public class PlayerShoot : MonoBehaviour
         {
             Shoot();
             timeUntilFire = Time.time + fireRate;
+            animator.SetBool("IsShooting", true);
         }
     }
     void Shoot()

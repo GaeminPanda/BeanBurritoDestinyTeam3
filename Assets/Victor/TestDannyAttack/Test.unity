@@ -167,6 +167,7 @@ MonoBehaviour:
   firingpoint: {fileID: 235351789}
   BeanBulletPrefab: {fileID: 488027165324878445, guid: 51a02a1cb5651c749809b3663bd0681c,
     type: 3}
+  animator: {fileID: 3686700595073074854}
 --- !u!1 &500335149
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +531,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 2.03}
+    oldSize: {x: 1.26, y: 1.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -617,8 +618,8 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 256
-  jumpPower: 1
-  moveSpeed: 1
+  jumpPower: 8
+  moveSpeed: 10
   isFacingRight: 1
   fallDetector: {fileID: 500335149}
 --- !u!212 &3686700595073074859
