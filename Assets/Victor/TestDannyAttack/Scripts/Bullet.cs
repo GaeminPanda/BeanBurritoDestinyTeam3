@@ -5,6 +5,7 @@ public class Bullet : MonoBehaviour
     public float bulletSpeed = 15f;
     public float bulletDamage = 10f;
     public Rigidbody2D rb;
+    public float damage;
 
     private void FixedUpdate()
     {
@@ -12,6 +13,14 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        GameObject collisionGameObject = collision.gameObject;
+        if (collisionGameObject.name != "Player")
+        {
+            if (collisionGameObject.GetComponent<Health>() != null)
+            {
+                collisionGameObject.GetComponent<Health>().TakeDamage(damage);
+            }
+        }
         Destroy(gameObject);
     }
 }
