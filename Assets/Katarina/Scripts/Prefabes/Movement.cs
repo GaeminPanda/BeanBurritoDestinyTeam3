@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -96,10 +97,11 @@ public class Movement : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    { 
        if(collision.tag == "FallDetector")
         {
-            transform.position = respawnPoint;
+            //transform.position = respawnPoint;
+            SceneManager.LoadScene("CounterTopScene1");
         }
        else if(collision.tag == "CheckPoint")
         {
@@ -111,6 +113,7 @@ public class Movement : MonoBehaviour
             Scoring.totalScore += 1;
             scoreText.text = "Beans: " + Scoring.totalScore;
             collision.gameObject.SetActive(false);
+            
         }
 
     }
