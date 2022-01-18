@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject collisionGameObject = collision.gameObject;
-        if (collisionGameObject.name != "Player")
+        if (collisionGameObject.name != "ememy")
         {
             if (collisionGameObject.GetComponent<Health>() != null)
             {
