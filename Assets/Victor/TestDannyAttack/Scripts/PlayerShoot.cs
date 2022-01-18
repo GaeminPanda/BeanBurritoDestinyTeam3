@@ -18,9 +18,10 @@ public class PlayerShoot : MonoBehaviour
     {
         if(Input.GetMouseButton(0) && timeUntilFire < Time.time)
         {
-            Shoot();
+            
             timeUntilFire = Time.time + fireRate;
-            animator.SetBool("IsShooting", true);
+            animator.SetTrigger("IsShooting 0");
+           
         }
     }
     void Shoot()
