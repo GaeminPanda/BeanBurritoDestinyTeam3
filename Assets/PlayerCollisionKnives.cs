@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollisionKnives : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class PlayerCollisionKnives : MonoBehaviour
             rb2 = mainPlayer.GetComponent<Rigidbody2D>();
             rb2.velocity = new Vector2(0, 0);
             mainPlayer.transform.localPosition = spawnpoint.transform.localPosition;
-            //SceneManager.LoadScene("EnemiesScene");
+            SceneManager.LoadScene("MichealScene");
         }
     }
 
