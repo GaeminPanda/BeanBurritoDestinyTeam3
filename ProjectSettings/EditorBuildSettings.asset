@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Victor/GameOver/GameOver.unity
     guid: 5b1951e0d8b26ec4b803a1dba5e38dab
+  - enabled: 1
+    path: Assets/Victor/EndComic/EndComic.unity
+    guid: 148937a219dc19a4f8855d20774a8848
   m_configObjects: {}
