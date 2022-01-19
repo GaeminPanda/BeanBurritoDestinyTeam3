@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 488027165324878432}
   - component: {fileID: 488027165324878435}
   - component: {fileID: 488027165324878434}
+  - component: {fileID: 3949475860191196244}
   m_Layer: 0
   m_Name: BeanBullet
   m_TagString: Untagged
@@ -134,6 +135,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 15
-  bulletDamage: 10
   rb: {fileID: 488027165324878432}
-  damage: 10
+  damage: 50
+--- !u!114 &3949475860191196244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488027165324878445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b813572060e3a247a6e33af30753da4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnpoint: {fileID: 0}
+  mainPlayer: {fileID: 7109609529562874555, guid: f6724971da12d0046ab173b6d6fe18ff,
+    type: 3}
