@@ -9,6 +9,7 @@ TagManager:
   - CheckPoint
   - Bean
   - BeanBullet
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Obstacles
   - nothing
   - Shelf
-  - 
+  - Enemy
   - 
   - 
   - 
